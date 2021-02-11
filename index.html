@@ -4,6 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
 	<title>Email Porfolio</title>
 	<style type="text/css">
 		body {
@@ -35,25 +37,267 @@
 			font-family: sans-serif;
 			color: #4a4a4a
 		}
-
+        .nav-button {
+            text-decoration: none;
+            padding: 5px 18px;
+            font-size: 16px;
+            color: #436b2f;
+            border: 2px solid #436b2f; 
+            border-radius: 4px;
+        }
+        .two-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 40px 0;
+        }
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .two-columns .padding {
+            padding: 10px;
+        }
+        .two-columns .content {
+            text-align: left;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 0;
+        }
+        .two-columns .column3 {
+            width: 100%;
+            max-width: 180px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .three-columns img {
+            width: 180px;
+        }
 		@media screen and (max-width: 600px) { 
+            .nav-button {
+                display: block;
+                margin: 2px;
+                font-size: 24px;
+            }
+            .two-columns .content img {
+                width: 300px!important;
+                max-width: 300px!important;
+            }
+            .padding {
+                padding-left: 0!important;
+                padding-right: 0!important;
+            }
+            .mobile {
+                width: 500px!important;
+                
+            }
 		}
 		@media screen and (max-width: 400px) { 
 		}
+        /* dark green-> #345F1E green-> #436b2f light beige-> #e8dabe beige-> #e8dabe    */
 	</style>
 </head>
 <body>
-	<center class="wrapper">
-			<table class="main" align="center">
-				<tr>
-					<td>
-						<img src="https://i.ibb.co/SQNwCgD/urban-banner.png" alt="urban-banner">asdf
-					</td>
-				</tr>
-				<tr>
+	<center class="wrapper" style="background-color: #cccccc;">
+        <table class="main" align="center" style="background-color: #f6f9fc;">
+            <tr>
+                <td height="5px" style="background-color: #345F1E;"></td>
+            </tr>
+            <!--start top banner  -->
+            <tr>
+                <td>
+                    <img src="https://i.ibb.co/gW6Wnx5/fara-fauna-banner.png" alt="fara-fauna-banner" width="600px" style="max-width: 100%;">
+                </td>
+            </tr>
+            <!-- end top banner  -->
+            <tr>
+                <td height="3" style="background-color: #345F1E;"></td>
+            </tr>
+            <!-- start nav buttons -->
+            <tr style="font-family: Dosis; font-weight: bold; background-color: #e8dabe;">
+                <td style="padding-bottom: 12px;">
+                    <table width="100%" style="margin-top: 12px;">
+                        <tr>
+                            <td align="center">
+                                <a href="#" class="nav-button" style="font-size: 20px;">Sales</a>
+                                <a href="#" class="nav-button" style="font-size: 20px;">Seasonal</a>
+                                <a href="#" class="nav-button" style="font-size: 20px;">Weddings</a>
+                                <a href="#" class="nav-button" style="font-size: 20px;">Allergies</a>
+                                <a href="#" class="nav-button" style="font-size: 20px;">All Seasons</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end nav buttons -->
+            
+            <!-- start of flower fair   -->
+            <tr>
+                <td height="3px" style="background-color: #345F1E;"></td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="padding-left: 20px; padding-right: 20px;">
+                                <h1 style="text-align: center; font-family: Dosis; font-size: 45px;">Flower Fair 2021</h1>
+                                <p style="font-size: 20px;">Make sure to stop by our booth for our great indoor plant selection. All proceeds go to funding gardens in schools grades k-12. </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; padding-bottom: 20px;">
+                                <img height="280" src="https://i.ibb.co/dBDjLDd/plants-room.jpg" style="margin-right: 25px; border-radius: 5px" alt="plants-room">
+                                <img height="280" src="https://i.ibb.co/qWqqQxg/succulents.jpg" style="margin-left: 25px; border-radius: 5px" alt="succulents">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
 
-				</tr>
-			</table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end of flower fair -->
+            <tr>
+                <td height="3" style="background-color: #345F1E; margin-top: 8px;"></td>
+            </tr>
+            <!-- start of wedding bouqet -->
+            <tr style="background-color: #e8dabe;">
+                <td>
+                    <table width="280" style="display: inline-block;">
+                        <tr>
+                            <td>
+                                <img src="https://i.ibb.co/bQr7J3m/wedding-bouqet.jpg" alt="wedding-bouqet" width="100%" style="padding: 12px 0 8px 12px">
+                            </td>
+                        </tr>                        
+                    </table>
+                    <table width="280" style="display: inline-block; padding-left: 35px">
+                        <tr>
+                            <td>
+                                <h3 style="text-align: center;">Wedding Packages</h3>
+                                <p>Donec ullamcorper tristique eros quis ullamcorper. Pellentesque interdum eu tellus in efficitur. Vestibulum ac cursus sem. Sed molestie porta velit, vel congue tortor aliquam dapibus.</p> 
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <!-- <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <img class="mobile" src="https://i.ibb.co/bQr7J3m/wedding-bouqet.jpg" alt="wedding-bouqet" width="280px">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <h3 style="text-align: center;">Wedding Packages</h3>
+                                                        <p>Donec ullamcorper tristique eros quis ullamcorper. Pellentesque interdum eu tellus in efficitur. Vestibulum ac cursus sem. Sed molestie porta velit, vel congue tortor aliquam dapibus. Suspendisse malesuada velit at cursus dictum.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td> -->
+            </tr>
+            <tr>
+                <td height="3" style="background-color: #345F1E;"></td>
+            </tr>
+            <!-- two columns  -->
+            <tr>
+                <td style="text-align: center; padding-bottom: 20px;">
+                    <table class="quote-words" width="300" style="display: inline-block;">
+                        <tr>
+                            <td style="padding-right: 15px;">                                    
+                                <h2>The best flower shop I've ever been to.</h2>
+                                <p style="text-align: left;">"Fara was so great to work with. She has great style and lead me through to the end. The best part was how Fara made me feel so included in the creative aspects of my arrangements.<br><br>-Andrea P.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="display: inline-block;">
+                        <tr>
+                            <td>
+                                <img class="quote-pic" src="https://i.ibb.co/7zKh0rR/bouqet.jpg" alt="bouqet" width="290" style="border-radius: 5px;">
+                            </td>
+                        </tr>
+                    </table>                    
+                </td>                    
+            </tr>
+            <tr>
+                <td height="3" style="background-color: #345F1E;"></td>
+            </tr>  
+            <tr>
+                <td align="center">
+                    <img src="https://i.ibb.co/M1fQtTy/youtube.png" alt="youtube" width="12%" style="padding: 8px 12px">
+                    <img src="https://i.ibb.co/p2PwCWW/twitter.png" alt="twitter" width="12%" style="padding: 8px 12px">
+                    <img src="https://i.ibb.co/3sY4Vm2/instagram.png" alt="instagram" width="12%" style="padding: 8px 12px">
+                    <img src="https://i.ibb.co/QCLKcsm/facebook.png" alt="facebook" width="12%" style="padding: 8px 12px">
+                    <img src="https://i.ibb.co/R9QQHMM/pinterest.png" alt="pinterest" width="12%" style="padding: 8px 12px">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td height="3px" style="background-color: #345f1e;"></td>
+            </tr>
+            <tr>
+                <td align="center" style="background-color: #e8dabe; color: #345F1E">
+                    <h3>1234 Main st, New City AQ 12345</h3>
+                    <h3>(800) 987-6543</h3>
+                    <a href="#" style="text-decoration: none; color: #4a4a4a;"><h5>UNSUBSCRIBE</h5></a>
+                    
+                </td>
+            </tr>
+        </table>
 	</center>
 </body>
 </html>
+
+<!-- wedding bouqet pic 
+
+<span>Photo by <a href="https://unsplash.com/@_dillongroves?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dillon Groves</a> on <a href="https://unsplash.com/s/photos/bouqet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+small bouqet
+
+<span>Photo by <a href="https://unsplash.com/@t_saskia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Teigan Rodger</a> on <a href="https://unsplash.com/s/photos/bouqet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+little plants
+
+<span>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/plants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+room of plants
+
+<span>Photo by <a href="https://unsplash.com/@judahguttmann?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Judah Guttmann</a> on <a href="https://unsplash.com/s/photos/plants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<img src="https://i.ibb.co/gW6Wnx5/fara-fauna-banner.png" alt="fara-fauna-banner" border="0">
+<img src="https://i.ibb.co/44mch3V/fara-fauna-logo-clear.png" alt="fara-fauna-logo-clear" border="0">
+<img src="https://i.ibb.co/VqRvB03/fara-fauna-logo.png" alt="fara-fauna-logo" border="0">
+<img src="https://i.ibb.co/9HQV48p/fara-fauna-plant.png" alt="fara-fauna-plant" border="0">
+<img src="https://i.ibb.co/7zKh0rR/bouqet.jpg" alt="bouqet" border="0">
+<img src="https://i.ibb.co/dBDjLDd/plants-room.jpg" alt="plants-room" border="0">
+<img src="https://i.ibb.co/qWqqQxg/succulents.jpg" alt="succulents" border="0">
+<img src="https://i.ibb.co/bQr7J3m/wedding-bouqet.jpg" alt="wedding-bouqet" border="0">
+<img src="https://i.ibb.co/3vPN0w6/paper-flowers.png" alt="paper-flowers" border="0">
+<img src="https://i.ibb.co/qDYDw1C/pink-roses.png" alt="pink-roses" border="0">
+-->
